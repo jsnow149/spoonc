@@ -1,0 +1,20 @@
+{
+    "version": "0.5",
+    "description": " Find the full path to an executable file",
+    "homepage": "https://www.uwe-sieber.de/misc_tools_e.html",
+    "license": "Freeware",
+    "architecture": {
+        "32bit": {
+            "bin": "Win32/FindEXE.exe"
+        },
+        "64bit": {
+            "bin": "x64/FindEXE.exe"
+        }
+    },
+    "url": "https://www.uwe-sieber.de/files/findexe.zip",
+    "hash": "dc14bd2e252e5f11d5d765d8efca655ac9105ff2af18b6bdc257f8a622f15a03",
+    "checkver": "FindEXE\\s+V([\\d.]+)",
+    "autoupdate": {
+        "url": "https://www.uwe-sieber.de/files/findexe.zip"
+    }
+}
