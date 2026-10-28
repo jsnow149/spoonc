@@ -1,12 +1,12 @@
 {
-    "version": "0.18.0",
+    "version": "1.0.0",
     "description": "A tool to automate single-core GPU driver affinity benchmarking.",
-    "homepage": "https://github.com/amitxv/AutoGpuAffinity",
+    "homepage": "https://github.com/valleyofdoom/AutoGpuAffinity",
     "license": "Unknown",
-    "url": "https://github.com/amitxv/AutoGpuAffinity/releases/download/0.18.0/AutoGpuAffinity.zip",
+    "url": "https://github.com/amitxv/valleyofdoom/releases/download/0.18.0/AutoGpuAffinity.zip",
     "extract_dir": "AutoGpuAffinity",
-    "hash": "51f72500790a5dccdd7fb74e33cce75da28fd2f98dc95100794eb523ad7e64cd",
-    "persist": "config.txt",
+    "hash": "89255ba22066f48755f79a1203e71694a28f4c54b41205957626a603a1964101",
+    "persist": "config.ini",
     "post_install": [
         "if ($global) { $hive = 'HKLM' } else { $hive = 'HKCU' }",
         "@(",
@@ -24,6 +24,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/amitxv/AutoGpuAffinity/releases/download/$version/AutoGpuAffinity.zip"
+        "url": "https://github.com/valleyofdoom/AutoGpuAffinity/releases/download/$version/AutoGpuAffinity.zip"
     }
 }
